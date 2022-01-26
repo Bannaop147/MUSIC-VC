@@ -37,7 +37,7 @@ $ sudo docker run musicplayer
 - `API_HASH`: Telegram app hash.
 - `SESSION`: Pyrogram string session. You can generate from [here](https://replit.com/@AsmSafone/genStr).
 - `SUDOERS`: ID of sudo users (separate multiple ids with space).
-- `PREFIX`: Commad prefixes (separate multiple prefix with space). Eg: `! /`
+- `PREFIX`: Commad prefixes (separate multiple prefix with space). Eg: `A /`
 - `LANGUAGE`: An [available](#languages) bot language (can change it anytime). Default: `en`
 - `CUSTOM_QUALITY`: Custom stream quality for the userbot in vc. Default: `high`
 
@@ -45,24 +45,24 @@ $ sudo docker run musicplayer
 
 Command | Description
 :--- | :---
-• !ping | Check if alive or not
-• !start / !help | Show the help for commands
-• !mode / !switch | Switch the stream mode (audio/video)
-• !p / !play [song name or youtube link] | Play a song in vc, if already playing add to queue
-• !radio / !stream [radio url or stream link] | Play a live stream in vc, if already playing add to queue
-• !pl / !playlist [youtube playlist link] | Play the whole youtube playlist at once
-• !skip / !next | Skip to the next song
-• !m / !mute | Mute the current stream
-• !um / !unmute | Unmute the muted stream
-• !ps / !pause | Pause the current stream
-• !rs / !resume | Resume the paused stream
-• !list / !queue | Show the songs in the queue
-• !mix / !shuffle | Shuflle the queued playlist
-• !loop / !repeat | Enable or disable the loop mode
-• !lang / language [language code] | Set the bot language in group
-• !ip / !import | Import queue from exported file
-• !ep / !export | Export the queue for import in future
-• !stop / !leave | Leave from vc and clear the queue
+• Aping | Check if alive or not
+• Astart / Ahelp | Show the help for commands
+• Amode / Aswitch | Switch the stream mode (audio/video)
+• Ap / Aplay [song name or youtube link] | Play a song in vc, if already playing add to queue
+• Aradio / Astream [radio url or stream link] | Play a live stream in vc, if already playing add to queue
+• Apl / Aplaylist [youtube playlist link] | Play the whole youtube playlist at once
+• Askip / Anext | Skip to the next song
+• Am / Amute | Mute the current stream
+• Aum / Aunmute | Unmute the muted stream
+• Aps / Apause | Pause the current stream
+• Ars / Aresume | Resume the paused stream
+• Alist / Aqueue | Show the songs in the queue
+• Amix / Ashuffle | Shuflle the queued playlist
+• Aloop / Arepeat | Enable or disable the loop mode
+• Alang / Alanguage [language code] | Set the bot language in group
+• Aip / Aimport | Import queue from exported file
+• Aep / Aexport | Export the queue for import in future
+• Astop / Aleave | Leave from vc and clear the queue
 
 ## 🗣 <a name="languages"></a>Languages
 
